@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Netflix Clone Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you want to see live demo then [click here!!](https://netflix-clone-a0551.web.app/)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
 
 ### `npm start`
 

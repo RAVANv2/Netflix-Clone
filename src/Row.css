@@ -1,0 +1,41 @@
+/*Row Wise poster*/
+.row__posters{
+    display : flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+/* Tells your browser to remove scrollbar*/
+.row__posters::-webkit-scrollbar{
+    display : none;
+}
+
+/*Every Poster*/
+.row__poster{
+    object-fit : contain;
+    width: 100%;
+    max-height : 100px;
+    margin-right : 10px;
+    transition : transform 450ms;
+}
+
+/*Increase size when we hover*/
+.row__poster:hover {
+    transform: scale(1.08);
+    opacity : 1;
+}
+
+
+/*First row should be in large size */
+.row__posterLarge {
+    max-height: 250px;
+}
+.row__posterLarge:hover{
+    transform : scale(1.09)
+}
+
+
+.row{
+    margin-left:20px;
+    color:white;
+}
